@@ -1,0 +1,618 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3485741520,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has opened the application in the browser",
+            "match": {
+              "location": "Login_Steps.user_has_opened_the_application_in_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-09T09:28:49.035Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1162386431,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate the successful login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-successful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 72334660,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 990493247,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the Login link",
+            "match": {
+              "location": "Login_Steps.user_clicks_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 521322260,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter emailid and password",
+            "match": {
+              "location": "Login_Steps.user_enter_emailid_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 916731512,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User cicks on Login button",
+            "match": {
+              "location": "Login_Steps.user_cicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 457494,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should land on the homepage",
+            "match": {
+              "location": "Login_Steps.user_should_land_on_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3493202847,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has opened the application in the browser",
+            "match": {
+              "location": "Login_Steps.user_has_opened_the_application_in_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-09T09:28:56.210Z",
+        "before": [
+          {
+            "result": {
+              "duration": 940896580,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validate the successful login using test data",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-successful-login-using-test-data",
+        "after": [
+          {
+            "result": {
+              "duration": 70728973,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2174379472,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on the Login link",
+            "match": {
+              "location": "Login_Steps.user_clicks_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 562872152,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enter emailid \"xyz@abc.com\" and password \"Abc@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xyz@abc.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Abc@1234\"",
+                  "offset": 46
+                }
+              ],
+              "location": "Login_Steps.user_enter_emailid_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 963677502,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User cicks on Login button",
+            "match": {
+              "location": "Login_Steps.user_cicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 296315,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should land on the homepage",
+            "match": {
+              "location": "Login_Steps.user_should_land_on_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Login"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3461746769,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has opened the application in the browser",
+            "match": {
+              "location": "Login_Steps.user_has_opened_the_application_in_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-09T09:29:04.419Z",
+        "before": [
+          {
+            "result": {
+              "duration": 933902048,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Validate the successful login using multiple set of test data",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-successful-login-using-multiple-set-of-test-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 74245824,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1932299637,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on the Login link",
+            "match": {
+              "location": "Login_Steps.user_clicks_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 646156198,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enter emailid \"xyz@abc.com\" and password \"Abc@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xyz@abc.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Abc@1234\"",
+                  "offset": 46
+                }
+              ],
+              "location": "Login_Steps.user_enter_emailid_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 912846539,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User cicks on Login button",
+            "match": {
+              "location": "Login_Steps.user_cicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275406,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should land on the homepage",
+            "match": {
+              "location": "Login_Steps.user_should_land_on_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Login"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Rapid"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3549242875,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has opened the application in the browser",
+            "match": {
+              "location": "Login_Steps.user_has_opened_the_application_in_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-09T09:29:12.385Z",
+        "before": [
+          {
+            "result": {
+              "duration": 897070967,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Validate the successful login using multiple set of test data",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-successful-login-using-multiple-set-of-test-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 108536596,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1358898132,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on the Login link",
+            "match": {
+              "location": "Login_Steps.user_clicks_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 469394578,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enter emailid \"simran@abc.com\" and password \"Abc@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"simran@abc.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Abc@1234\"",
+                  "offset": 49
+                }
+              ],
+              "location": "Login_Steps.user_enter_emailid_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 741653590,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User cicks on Login button",
+            "match": {
+              "location": "Login_Steps.user_cicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3134752,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should land on the homepage",
+            "match": {
+              "location": "Login_Steps.user_should_land_on_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Login"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Rapid"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3499831306,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has opened the application in the browser",
+            "match": {
+              "location": "Login_Steps.user_has_opened_the_application_in_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-09T09:29:19.515Z",
+        "before": [
+          {
+            "result": {
+              "duration": 896338475,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Validate the negative login using test data",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-negative-login-using-test-data",
+        "after": [
+          {
+            "result": {
+              "duration": 83015664,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1997645011,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks on the Login link",
+            "match": {
+              "location": "Login_Steps.user_clicks_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 542506397,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User enter emailid \"xyz@abc.com\" and password \"Abc@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xyz@abc.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Abc@1234\"",
+                  "offset": 46
+                }
+              ],
+              "location": "Login_Steps.user_enter_emailid_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 759021754,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User cicks on Login button",
+            "match": {
+              "location": "Login_Steps.user_cicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124050101,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User gets the error message as \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Login_Steps.user_gets_the_error_message_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Login"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to design the Login page of the application",
+    "description": "",
+    "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@F_Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
